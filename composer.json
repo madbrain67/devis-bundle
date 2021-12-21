@@ -1,0 +1,45 @@
+{
+    "name": "madbrain67/devis-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony DevisBundle",
+    "keywords": ["Devis application", "bundle", "json", "api", "web service"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FERRERO Franck",
+            "email": "ferrerofranck@plateformweb.com",
+            "homepage": "https://plateformweb.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "symfony/dependency-injection": "^3.4 || ^4.2 || ^5.0",
+        "symfony/expression-language": "^3.4 || ^4.2 || ^5.0",
+        "symfony/framework-bundle": "^3.4 || ^4.2 || ^5.0",
+        "symfony/http-foundation": "^3.4 || ^4.2 || ^5.0",
+        "symfony/templating": "^3.4 || ^4.2 || ^5.0",
+        "symfony/translation": "^3.4 || ^4.2 || ^5.0",
+        "symfony/twig-bridge": "^3.4 || ^4.2 || ^5.0",
+        "symfony/twig-bundle": "^3.4 || ^4.2 || ^5.0",
+        "symfony/yaml": "^3.4 || ^4.2 || ^5.0",
+        "twig/twig": "^2.6 || ^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Madbrain67\\DevisBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Madbrain67\\evisBundle\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
