@@ -34,7 +34,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Madbrain67\\evisBundle\\Tests\\": "tests/"
+            "Madbrain67\\DevisBundle\\Tests\\": "tests/"
         }
     },
     "config": {
