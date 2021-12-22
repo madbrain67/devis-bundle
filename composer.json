@@ -13,9 +13,7 @@
     ],
     "require": {
         "php": "^7.2",
-        "cr/hashcli": "dev-master",
         "dompdf/dompdf": "^1.1",
-        "friendsofsymfony/user-bundle": "dev-master",
         "symfony/config": "^4.4 || ^5.0",
         "symfony/dependency-injection": "^3.4 || ^4.2 || ^5.0",
         "symfony/expression-language": "^3.4 || ^4.2 || ^5.0",
@@ -30,6 +28,7 @@
         "twig/twig": "^2.6 || ^3.0"
     },
     "require-dev": {
+        "cr/hashcli": "dev-master",
         "phpunit/phpunit": "^7.5",
         "symfony/console": "^5.4",
         "symfony/debug-bundle": "^5.4",
