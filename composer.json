@@ -13,6 +13,7 @@
     ],
     "require": {
         "php": "^7.2",
+        "cr/hashcli": "dev-master",
         "dompdf/dompdf": "^1.1",
         "friendsofsymfony/user-bundle": "dev-master",
         "symfony/config": "^4.4 || ^5.0",
