@@ -1,0 +1,2 @@
+devis_tools:
+    output_path: '%kernel.project_dir%/devis'

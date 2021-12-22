@@ -1,0 +1,30 @@
+parameters:
+    locale: 'fr'
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+        bind:
+
+    Madbrain67\DevisBundle\:
+        resource: '../../'
+        exclude:
+            - '../../DependencyInjection/'
+            - '../../Entity/'
+            - '../../Resources/'
+            - '../../Kernel.php'
+            - '../../Tests/'
+
+    Madbrain67\DevisBundle\Controller\:
+        resource: '../../Controller/*'
+        public: true
+
+    devis.service:
+        class: 'Madbrain67\DevisBundle\Service\DevisService'
+        arguments: ['%devis_tools%']
+
+    Madbrain67\DevisBundle\Controller\DevisController: 
+        public: true
+        arguments: ['@twig', '@translator.default', '@devis.service']

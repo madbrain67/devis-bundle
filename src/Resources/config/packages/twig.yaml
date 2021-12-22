@@ -1,0 +1,7 @@
+# config/packages/twig.yaml
+twig:
+    paths:
+        # directories are relative to the project root dir (but you
+        # can also use absolute directories)
+        '%kernel.project_dir%/src/Resources/views': 'MB67DevisBundle'
+        #'backend/templates': ~
