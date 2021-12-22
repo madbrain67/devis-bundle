@@ -1,6 +1,3 @@
-devis_home:
-    path: /
-    controller: Madbrain67\DevisBundle\Controller\FooController::index
 devis_index:
     path: /devis
     controller: Madbrain67\DevisBundle\Controller\DevisController::index
